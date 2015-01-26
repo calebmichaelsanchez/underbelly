@@ -3,6 +3,6 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Underbelly - Code Test</title>
-	<link rel="stylesheet" href="css/app.css">
+	<link rel="stylesheet" href="dist/css/app.css">
 </head>
 <body>

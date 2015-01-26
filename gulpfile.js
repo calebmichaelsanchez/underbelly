@@ -31,8 +31,8 @@ var onError = function (err) {
 
 // Browser Sync Config
 var config = {
-	files: ["dist/**/*.php"],
-	proxy: "http://underbelly.dev/dist"
+	files: ["inc/**/*.php"],
+	proxy: "http://underbelly.dev/"
 };
 
 
