@@ -1,0 +1,46 @@
+nav {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	max-width: 1170px;
+	margin: 0 auto;
+	z-index: 10;
+	padding: 35px 0;
+	border-bottom: 1px solid rgba($white, .85);
+	left: 50%;
+	transform: translatex(-50%);
+	@extend %clearfix;
+	h1 {
+		text-indent: -9999px;
+		background-image: url('../img/header/logo.png');
+		background-size: 192px 34px;
+		width: 192px;
+		height: 34px;
+		float: left;
+		margin: 0;
+		padding: 0;
+	}
+	ul {
+		float: right;
+		text-align: right;
+	}
+	li {
+		display: inline-block;
+		margin-right: 18px;
+	}
+	a {
+		color: $white;
+		text-transform: none;
+	}
+	a.btn {
+		display: block;
+		min-width: 100px;
+		padding: 10px 20px;
+		text-align: center;
+		border-radius: $br-default;
+		border: 1px solid rgba($white, .85);
+		color: $white;
+		text-transform: uppercase;
+		margin-left: 55px;
+	}
+}

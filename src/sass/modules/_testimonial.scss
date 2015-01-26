@@ -1,0 +1,38 @@
+.testimonial {
+	width: 100%;
+	background: #ecf1f3;
+	@extend %clearfix;
+}
+.testimonial-item {
+	position: relative;
+	width: (100 / 6) * 1%;
+	float: left;
+	@include ghost;
+	&:hover .testimonial-overlay {
+		opacity: 1;
+		transform: scale(1.05);
+	}
+} 
+.testimonial-item-info {
+	padding: em(70px) 0;
+	img {
+		border-radius: 50%;
+		margin-bottom: 15px;
+	}
+}
+.testimonial-overlay {
+	position: absolute;
+	padding: em(34px);
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 9;
+	opacity: 0;
+	background-color: $c-secondary;
+	transition: .4s;
+	p {
+		color: $white;
+		font-size: em(16.3px);
+	}
+}

@@ -1,0 +1,19 @@
+.users {
+	width: 100%;
+	background-color: #ecf1f3;
+	padding: em(50px) 1em;
+	ul {
+		width: 100%; 
+		text-align: center;
+	}
+	li {
+		display: inline-block;
+		margin-right: 80px;
+		&:last-of-type {
+			margin-right: 0;
+		}
+	}
+	img {
+		max-width: 
+	}
+}

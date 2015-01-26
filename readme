@@ -1,0 +1,7 @@
+Underbelly Code Test
+
+I tried to abstract as best I could. I don't have a ton of experience with dist folders, but I think I used it correctly here...
+
+I'm using gulp to compile and minify. 
+
+The only thing I've ignored is my node_modules folder.

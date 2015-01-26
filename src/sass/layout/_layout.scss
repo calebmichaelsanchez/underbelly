@@ -1,0 +1,12 @@
+section {
+	position: relative;
+	overflow: hidden;
+	@include ghost;
+}
+article {
+	width: 100%;
+	position: relative;
+	max-width: 1170px;
+	margin: 0 auto;
+	text-align: left;
+}

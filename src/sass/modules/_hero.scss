@@ -1,0 +1,46 @@
+.hero {
+	position: relative;
+	background: url('../img/hero/header-bg.jpg') center center no-repeat;
+	background-size: cover;
+	height: 760px;
+	article {
+		margin-top: 80px;
+	}
+	div {
+		max-width: 670px;
+	}
+}
+.buttons {
+	margin-top: 40px;
+	@extend %clearfix;
+	.btn {
+		float: left;
+	}
+	.btn:first-of-type {
+		@include btn(none);
+		margin-right: 15px;
+	}
+	.btn:nth-of-type(2) {
+		@include btn(1px solid rgba(255, 255, 255, .85), none, $br-round);
+	}
+}
+.browsers {
+	@extend %clearfix;
+	clear: left;
+	display: block;
+	margin-top: 35px;
+	text-align: left;
+	li {
+		float: left;
+		max-width: 52px;
+		margin-right: 18px;
+	}
+	img {
+		width: 52px;
+	}
+}
+.macbook {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}

@@ -1,0 +1,25 @@
+@mixin btn($b, $bg: $c-secondary, $br: $br-default) {
+	display: block;
+	min-width: 250px;
+	padding: 20px 35px;
+	text-align: center;
+	background-color: $bg;
+	border-radius: $br;
+	border: $b;
+	color: $white;
+	font-size: em(21px);
+}
+@mixin ghost {
+	text-align: center;
+	&:before {
+		content: '';
+		display: inline-block;
+		height: 100%;
+		vertical-align: middle;
+		margin-right: -0.25em;
+	}
+	article, div.testimonial-item-info {
+		display: inline-block;
+		vertical-align: middle;
+	}
+}
