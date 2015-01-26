@@ -6,4 +6,6 @@ I'm using gulp to compile and minify.
 
 The only thing I've ignored is my node_modules folder. 
 
+Still need to build out the footer. Haven't done any responsive work yet. 
+
 Thanks
