@@ -3,7 +3,7 @@
 		<div class="testimonial-item-info">
 			<img src="img/testimonial/person02.jpg" alt="">
 			<h5>First Last</h5>
-			<h5 class="subtitle">Position</h5>
+			<h5 class="subtitle">Designer</h5>
 		</div>
 		<div class="testimonial-overlay">
 			<p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio rem omnis, id dicta ea quis mollitia modi consectetur, ullam tenetur. Autem ut libero nihil asperiores praesentium ea perspiciatis vitae sit."</p>
