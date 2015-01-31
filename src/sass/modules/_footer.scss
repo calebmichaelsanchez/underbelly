@@ -1,0 +1,37 @@
+footer {
+	width: 100%;
+	background: url('../img/hero/footer-bg.jpg') center center no-repeat;
+	background-size: cover;
+	padding: 0 1em;
+}
+.tour {
+	padding: em(88px) 0;
+	.btn {
+		@include btn(none);
+		max-width: 250px;
+		margin: em(35px) auto 0;
+	}
+}
+.navigation {
+	width: 100%;
+	max-width: 1170px;
+	margin: 0 auto;
+	padding: em(88px) 0;
+	@extend %clearfix;
+	> div {
+		width: 25%;
+		float: left;
+	}
+	ul {
+		font-size: em(18px);
+		font-weight: $fw-light;
+		color: rgba($white, .6);
+	}
+	li {
+		margin-bottom: em(5px);
+	}
+	h5 {
+		color: rgba($white, .6);
+		text-align: left;
+	}
+}

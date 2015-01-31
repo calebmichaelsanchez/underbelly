@@ -1,5 +1,5 @@
 @import url('http://fonts.googleapis.com/css?family=Lato:300,700');
-nav:after, .buttons:after, .browsers:after, .testimonial:after {
+nav:after, .buttons:after, .browsers:after, .testimonial:after, .navigation:after {
   content: '';
   display: table;
   clear: both; }
@@ -344,7 +344,8 @@ h1 {
   margin-bottom: 35px; }
 
 h2 {
-  font-size: 3rem; }
+  font-size: 3rem;
+  text-align: center; }
 
 h3 {
   font-size: 2.5rem;
@@ -363,6 +364,11 @@ h5 {
 h5.subtitle {
   color: #acb8bd; }
 
+h6 {
+  font-size: 1.5625rem;
+  color: #fff;
+  margin-bottom: 0.8125rem; }
+
 p {
   font-size: 1.5rem;
   color: #57666b;
@@ -380,6 +386,14 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0; }
+
+hr {
+  display: block;
+  width: 100%;
+  max-width: 1170px;
+  border: none;
+  height: 2px;
+  background: rgba(255, 255, 255, 0.2); }
 
 section {
   position: relative;
@@ -617,3 +631,42 @@ nav {
   .testimonial-overlay p {
     color: #fff;
     font-size: 1.01875rem; }
+
+footer {
+  width: 100%;
+  background: url('../img/hero/footer-bg.jpg') center center no-repeat;
+  background-size: cover;
+  padding: 0 1em; }
+
+.tour {
+  padding: 5.5rem 0; }
+  .tour .btn {
+    display: block;
+    min-width: 250px;
+    padding: 20px 35px;
+    text-align: center;
+    background-color: #f1595f;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-size: 1.3125rem;
+    max-width: 250px;
+    margin: 2.1875rem auto 0; }
+
+.navigation {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 5.5rem 0; }
+  .navigation > div {
+    width: 25%;
+    float: left; }
+  .navigation ul {
+    font-size: 1.125rem;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.6); }
+  .navigation li {
+    margin-bottom: 0.3125rem; }
+  .navigation h5 {
+    color: rgba(255, 255, 255, 0.6);
+    text-align: left; }
