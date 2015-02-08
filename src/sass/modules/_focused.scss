@@ -56,11 +56,21 @@
 		left: -60px;
 		top: 50%;
 		transform: translatey(-50%);
+		img:first-of-type {
+			position: relative;
+			z-index: 10;
+		}
+		img:nth-of-type(2) {
+			position: absolute;
+			bottom: 5px;
+			right: -150px;
+			z-index: 1;
+		}
 	}
 }
 .automated-info {
-	max-width: 532px;
-	padding-right: 120px;
+	max-width: 402px;
+	//padding-right: 120px;
 	float: right;
 	img {
 		display: block;

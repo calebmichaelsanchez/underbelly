@@ -12,6 +12,20 @@
 		opacity: 1;
 		transform: scale(1.05);
 	}
+	&:after {
+		content: '';
+		position: absolute;
+		right: 0;
+		height: 80%;
+		width: 1px;
+		background: $white;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+	&:last-of-type:after {
+		content: '';
+		display: none;
+	}
 } 
 .testimonial-item-info {
 	padding: em(70px) 0;
@@ -34,5 +48,14 @@
 	p {
 		color: $white;
 		font-size: em(16.3px);
+	}
+	h5 {
+		text-align: left;
+		color: $white;
+		margin: 20px 0 10px;
+	}
+	img {
+		display: block;
+		margin: 0;
 	}
 }

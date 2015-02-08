@@ -8,36 +8,45 @@
 		<div>
 			<h6>Product</h6>
 			<ul>
-				<li>Success Stories</li>
-				<li>Agenda Library</li>
-				<li>Terms</li>
-				<li>Pricing</li>
-				<li>Support</li>
-				<li>Sign In</li>
+				<li><a href="#">Success Stories</a></li>
+				<li><a href="#">Agenda Library</a></li>
+				<li><a href="#">Terms</a></li>
+				<li><a href="#">Pricing</a></li>
+				<li><a href="#">Support</a></li>
+				<li><a href="#">Sign In</a></li>
 			</ul>
 		</div>
 		<div>
 			<h6>Compnay</h6>
 			<ul>
-				<li>About Us</li>
-				<li>Blog</li>
-				<li>Jobs</li>
-				<li>Press</li>
-				<li>Contact Us</li>
+				<li><a href="#">About Us</a></li>
+				<li><a href="#">Blog</a></li>
+				<li><a href="#">Jobs</a></li>
+				<li><a href="#">Press</a></li>
+				<li><a href="#">Contact Us</a></li>
 			</ul>
 		</div>
 		<div>
 			<h6>Blog</h6>
 			<ul>
-				<li>Startup Journey</li>
+				<li><a href="#">Startup Journey</a></li>
 				<li>August 13, 2014</li>
-				<li>Site Redesign</li>
+				<li><a href="#">Site Redesign</a></li>
 				<li>August 26, 2014</li>
 			</ul>
 		</div>
 		<div>
 			<h6>Connect</h6>
-			<h5>Join our mailing list</h5>
+			<label for="email">Join our mailing list</label>
+			<div class="email">
+				<input type="text" id="email" name="email" placeholder="Email..."><input type="submit" value="submit">
+			</div>
+			<ul class="social">
+				<li><a href="#"><img src="dist/img/footer/facebook.png" alt="Facebook"></a></li>
+				<li><a href="#"><img src="dist/img/footer/twitter.png" alt="Twitter"></a></li>
+				<li><a href="#"><img src="dist/img/footer/linkedin.png" alt="LinkedIn"></a></li>
+			</ul>
+			<span class="copyright">&copy;getCoffee <?php echo date('Y'); ?></span>
 		</div>
 	</div>
 </footer>

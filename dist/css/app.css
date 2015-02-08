@@ -1,5 +1,5 @@
 @import url('http://fonts.googleapis.com/css?family=Lato:300,700');
-nav:after, .buttons:after, .browsers:after, .testimonial:after, .navigation:after {
+nav:after, .buttons:after, .browsers:after, .testimonial:after, .navigation:after, .navigation > div:last-of-type:after, .email:after {
   content: '';
   display: table;
   clear: both; }
@@ -575,10 +575,17 @@ nav {
     top: 50%;
     -webkit-transform: translatey(-50%);
             transform: translatey(-50%); }
+    .automated .browser img:first-of-type {
+      position: relative;
+      z-index: 10; }
+    .automated .browser img:nth-of-type(2) {
+      position: absolute;
+      bottom: 5px;
+      right: -150px;
+      z-index: 1; }
 
 .automated-info {
-  max-width: 532px;
-  padding-right: 120px;
+  max-width: 402px;
   float: right; }
   .automated-info img {
     display: block;
@@ -610,6 +617,19 @@ nav {
     opacity: 1;
     -webkit-transform: scale(1.05);
             transform: scale(1.05); }
+  .testimonial-item:after {
+    content: '';
+    position: absolute;
+    right: 0;
+    height: 80%;
+    width: 1px;
+    background: #fff;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%); }
+  .testimonial-item:last-of-type:after {
+    content: '';
+    display: none; }
 
 .testimonial-item-info {
   padding: 4.375rem 0; }
@@ -631,6 +651,13 @@ nav {
   .testimonial-overlay p {
     color: #fff;
     font-size: 1.01875rem; }
+  .testimonial-overlay h5 {
+    text-align: left;
+    color: #fff;
+    margin: 20px 0 10px; }
+  .testimonial-overlay img {
+    display: block;
+    margin: 0; }
 
 footer {
   width: 100%;
@@ -661,12 +688,50 @@ footer {
   .navigation > div {
     width: 25%;
     float: left; }
-  .navigation ul {
+  .navigation ul, .navigation a {
     font-size: 1.125rem;
     font-weight: 300;
-    color: rgba(255, 255, 255, 0.6); }
+    color: rgba(255, 255, 255, 0.6);
+    text-transform: none; }
   .navigation li {
     margin-bottom: 0.3125rem; }
   .navigation h5 {
     color: rgba(255, 255, 255, 0.6);
     text-align: left; }
+
+label {
+  display: block;
+  font-family: 'Lato', 'Futura', 'Helvetica', sans-serif;
+  font-size: 1.01875rem;
+  color: #fff;
+  margin-bottom: 10px; }
+
+input {
+  float: left;
+  height: 40px;
+  padding: 10px 15px; }
+
+input[type="text"] {
+  background: #d5d8da;
+  border: 2px solid white;
+  border-radius: 5px 0 0 5px; }
+
+input[type="submit"] {
+  text-indent: -1000px;
+  padding: 10px 20px;
+  outline: none;
+  border: none;
+  background: url('../img/footer/paper-plane.png') center center no-repeat, #fff;
+  border-radius: 0 5px 5px 0; }
+
+.social {
+  text-align: left;
+  margin: 35px 0 20px; }
+  .social li {
+    display: inline-block;
+    margin-right: 10px; }
+    .social li:last-of-type {
+      margin-right: 0; }
+
+.copyright {
+  color: #fff; }

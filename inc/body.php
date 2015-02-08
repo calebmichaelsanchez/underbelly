@@ -46,5 +46,6 @@
 	</article>
 	<div class="browser">
 		<img src="dist/img/focused/frame.png" alt="">
+		<img src="dist/img/automated/iphone.png" alt="">
 	</div>
 </section>
